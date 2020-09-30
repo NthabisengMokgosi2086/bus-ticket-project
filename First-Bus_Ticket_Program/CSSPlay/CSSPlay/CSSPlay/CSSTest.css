@@ -1,0 +1,24 @@
+﻿body {
+    background-image:url('images/background.jpg');
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+
+}
+.myButtons{
+    background-color:slategrey;
+    border:2px solid #050404;
+    color:whitesmoke;
+    border-radius:10px;
+    padding:20px 80px ;    
+    z-index: 1;
+    left: 876px;
+    top: 123px;
+    position: absolute;
+
+}
+.myButtons:hover
+{
+    background-color:black;
+    color:white;
+    box-shadow: 0 12px 16px 0 whitesmoke, 0 17px 50px 0 white;
+}
